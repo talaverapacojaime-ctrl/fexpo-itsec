@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEXPO ITSEC SUCRE - 2026</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- BIENVENIDA -->
+    <section id="welcome-screen" class="welcome-screen">
+        <div class="welcome-bg-wrapper">
+            <img src="imagenes/bienvenida.jpg" alt="Edificio ITSEC Sucre" class="welcome-bg-photo">
+            <div class="welcome-overlay-gradient"></div>
+        </div>
+
+        <div class="welcome-container">
+            <header class="welcome-top-bar">
+                <div class="welcome-brand">
+                    <div class="welcome-bulb"><i class="fa-solid fa-lightbulb"></i></div>
+                    <div class="welcome-brand-info">
+                        <h2>FEXPO <span class="text-yellow">ITSEC</span></h2>
+                        <h3>SUCRE</h3>
+                        <p>INSTITUTO TÉCNICO SUPERIOR EN CIENCIAS DE LA COMPUTACIÓN</p>
+                    </div>
+                </div>
+                <div class="welcome-location">Sucre - Bolivia</div>
+            </header>
+
+            <!-- TEXTO CENTRADO -->
+            <div class="welcome-main-text"
+                style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:90%;max-width:900px;text-align:center;z-index:2;">
+                <h1 class="welcome-title" style="text-align:center;">
+                    <span class="title-welcome">¡Bienvenido a la</span>
+                    <span class="title-fexpo">FEXPO <span class="text-yellow">ITSEC</span></span>
+                    <span class="title-sucre">Sucre!</span>
+                </h1>
+
+                <p class="welcome-quote" style="text-align:center;">
+                    “Innovación, talento y emprendimiento<br>
+                    que construyen un mejor futuro...”
+                </p>
+
+                <div class="btn-container" style="display:flex;justify-content:center;">
+                    <button id="enter-btn" class="btn-enter">
+                        <i class="fa-solid fa-hand-pointer"></i>
+                        <span>INGRESAR A LA FEXPO</span>
+                        <div class="arrow-circle">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <footer class="welcome-bottom-bar">
+                <div class="laptop-icon-glow">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <div class="welcome-tagline">Aprender, Crear, Innovar</div>
+            </footer>
+        </div>
+    </section>
+
+    <!-- PÁGINA PRINCIPAL -->
+    <div id="main-website" class="main-website hidden">
+
+        <!-- MENÚ SIN ENTREVISTAS -->
+        <header class="navbar">
+            <div class="logo">
+                <div class="logo-bulb"><i class="fa-solid fa-lightbulb"></i></div>
+                <div class="logo-text">
+                    <span class="brand-title">FEXPO <strong>ITSEC</strong></span>
+                    <span class="brand-subtitle">SUCRE</span>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="#inicio" class="nav-link active">
+                    <i class="fa-solid fa-house"></i> Inicio
+                </a>
+                <a href="#emprendimientos" class="nav-link">
+                    <i class="fa-solid fa-briefcase"></i> Emprendimientos
+                </a>
+                <a href="#logotipos" class="nav-link">
+                    <i class="fa-solid fa-palette"></i> Logotipos
+                </a>
+                <a href="#galeria" class="nav-link">
+                    <i class="fa-solid fa-image"></i> Galería
+                </a>
+                <a href="#contacto" class="nav-link">
+                    <i class="fa-solid fa-envelope"></i> Contacto
+                </a>
+            </nav>
+
+            <div class="location-tag">Sucre - Bolivia</div>
+        </header>
+
+        <!-- BANNER -->
+        <section id="inicio" class="hero-banner">
+            <div class="banner-content">
+                <h1 class="hero-title">
+                    <span class="line-1">Bienvenido a la</span>
+                    <span class="line-2">
+                        FEXPO <span class="highlight-yellow">ITSEC Sucre</span>
+                    </span>
+                </h1>
+                <p class="hero-quote">
+                    “Innovación, talento y emprendimiento<br>
+                    que construyen un mejor futuro...”
+                </p>
+            </div>
+
+            <div class="hero-image-frame">
+                <img src="imagenes/bienvenida.jpg" alt="Edificio ITSEC Sucre" class="building-photo">
+            </div>
+        </section>
+
+        <main class="main-container">
+
+            <!-- EMPRENDIMIENTOS -->
+            <div class="grid-section">
+                <section id="emprendimientos" class="cards-wrapper">
+                    <div class="section-header">
+                        <div class="icon-briefcase">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <h2>Nuestros <span class="highlight-yellow-text">Emprendimientos</span></h2>
+                    </div>
+
+                    <div class="cards-grid">
+
+                        <article class="card">
+                            <div class="card-img-wrapper">
+                                <img src="imagenes/IMAGEN1.jfif" alt="Fast Food ITSEC"
+                                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1561758033-d89a9ad46330?q=80&w=400'">
+                                <span class="badge badge-yellow">Gastronomía</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>Fast Food ITSEC</h3>
+                                <p><strong>Comida rápida con el mejor sabor para todos...</strong></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-img-wrapper">
+                                <img src="imagenes/IMAGEN2.jfif" alt="TecnoPlus"
+                                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=400'">
+                                <span class="badge badge-yellow">Tecnología</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>TecnoPlus</h3>
+                                <p><strong>Accesorios y soluciones tecnológicas para tu día a día...</strong></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-img-wrapper">
+                                <img src="imagenes/IMAGEN3.jfif" alt="DeliDrink"
+                                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=400'">
+                                <span class="badge badge-yellow">Bebidas</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>DeliDrink</h3>
+                                <p><strong>Bebidas refrescantes y deliciosas...</strong></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-img-wrapper">
+                                <img src="imagenes/IMAGEN4.jfif" alt="Sweet Bakes"
+                                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400'">
+                                <span class="badge badge-yellow">Repostería</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>Sweet Bakes</h3>
+                                <p><strong>Postres artísticos y pastelería fina...</strong></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-img-wrapper">
+                                <img src="imagenes/IMAGEN5.jfif" alt="Artesanía Sucre"
+                                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=400'">
+                                <span class="badge badge-yellow">Artesanía</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>Artesanía Sucre</h3>
+                                <p><strong>Productos hechos a mano con identidad cultural...</strong></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-img-wrapper">
+                                <img src="imagenes/IMAGEN6.jfif" alt="EcoGlow"
+                                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=400'">
+                                <span class="badge badge-yellow">Salud y Belleza</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>EcoGlow</h3>
+                                <p><strong>Cosmética natural y cuidado personal orgánico...</strong></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-img-wrapper">
+                                <img src="imagenes/IMAGEN7.jfif" alt="DevStudio"
+                                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=400'">
+                                <span class="badge badge-yellow">Tecnología</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>DevStudio</h3>
+                                <p><strong>Desarrollo de software y páginas web a medida...</strong></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-img-wrapper">
+                                <img src="imagenes/IMAGEN8.jfif" alt="Moda y Estilo"
+                                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=400'">
+                                <span class="badge badge-yellow">Moda</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>Moda &amp; Estilo</h3>
+                                <p><strong>Prendas exclusivas y accesorios con tendencia...</strong></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-img-wrapper">
+                                <img src="imagenes/IMAGEN9.jfif" alt="Café Sucre"
+                                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=400'">
+                                <span class="badge badge-yellow">Gastronomía</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>Café Sucre</h3>
+                                <p><strong>Café de especialidad y acompañamientos tradicionales...</strong></p>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-img-wrapper">
+                                <img src="imagenes/IMAGEN10.jfif" alt="GreenLife"
+                                    onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=400'">
+                                <span class="badge badge-yellow">Ecología</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>GreenLife</h3>
+                                <p><strong>Plantas decorativas y macetas biodegradables...</strong></p>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+                <!-- RUBROS -->
+                <aside class="rubros-sidebar">
+                    <div class="rubros-header">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                        <h3>Nuestros Rubros</h3>
+                    </div>
+                    <ul class="rubros-list">
+                        <li><a href="#"><i class="fa-solid fa-utensils"></i> Gastronomía</a></li>
+                        <li><a href="#"><i class="fa-solid fa-bag-shopping"></i> Repostería</a></li>
+                        <li><a href="#"><i class="fa-solid fa-laptop"></i> Tecnología</a></li>
+                        <li><a href="#"><i class="fa-solid fa-scissors"></i> Artesanía</a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart-pulse"></i> Salud y belleza</a></li>
+                    </ul>
+                </aside>
+            </div>
+
+            <!-- TARJETAS INFORMATIVAS: SIN ENTREVISTAS -->
+            <section class="bottom-grid">
+
+
+                <div class="info-card">
+                    <div class="info-icon-glow">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <div class="info-content">
+                        <div class="info-title-group">
+                            <i class="fa-solid fa-images text-yellow"></i>
+                            <h3>Emprendimientos participantes</h3>
+                        </div>
+                        <p>Conoce las tarjetas de los cuatro emprendimientos participantes.</p>
+                        <img src="imagenes/IMAGEN11.jfif" alt="Tarjetas de los emprendimientos"
+                            style="width:100%; border-radius:12px;">
+                    </div>
+                </div>
+
+
+                <div id="galeria" class="info-card">
+                    <div class="info-content">
+                        <div class="info-title-group">
+                            <i class="fa-solid fa-camera text-yellow"></i>
+                            <h3>Galería FEXPO</h3>
+                        </div>
+                        <p>Momentos destacados de nuestros emprendimientos.</p>
+
+                        <div style="display:flex; gap:10px; overflow-x:auto; padding:10px 0;">
+                            <img src="imagenes/IMAGEN1.jfif"
+                                style="width:150px;height:120px;object-fit:cover;border-radius:10px;flex-shrink:0;">
+                            <img src="imagenes/IMAGEN2.jfif"
+                                style="width:150px;height:120px;object-fit:cover;border-radius:10px;flex-shrink:0;">
+                            <img src="imagenes/IMAGEN3.jfif"
+                                style="width:150px;height:120px;object-fit:cover;border-radius:10px;flex-shrink:0;">
+                            <img src="imagenes/IMAGEN4.jfif"
+                                style="width:150px;height:120px;object-fit:cover;border-radius:10px;flex-shrink:0;">
+                            <img src="imagenes/IMAGEN5.jfif"
+                                style="width:150px;height:120px;object-fit:cover;border-radius:10px;flex-shrink:0;">
+                            <img src="imagenes/IMAGEN6.jfif"
+                                style="width:150px;height:120px;object-fit:cover;border-radius:10px;flex-shrink:0;">
+                            <img src="imagenes/IMAGEN7.jfif"
+                                style="width:150px;height:120px;object-fit:cover;border-radius:10px;flex-shrink:0;">
+                            <img src="imagenes/IMAGEN8.jfif"
+                                style="width:150px;height:120px;object-fit:cover;border-radius:10px;flex-shrink:0;">
+                            <img src="imagenes/IMAGEN9.jfif"
+                                style="width:150px;height:120px;object-fit:cover;border-radius:10px;flex-shrink:0;">
+                            <img src="imagenes/IMAGEN10.jfif"
+                                style="width:150px;height:120px;object-fit:cover;border-radius:10px;flex-shrink:0;">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </section>
+
+            <!-- LOGOTIPOS Y PROMPTS -->
+            <section id="logotipos" class="logos-section">
+                <div class="logos-heading">
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Logotipos de nuestros emprendimientos</h2>
+
+                </div>
+
+                <article class="logo-item">
+                    <h3><i class="fa-solid fa-burger"></i> FAST FOOD ITSEC</h3>
+                    <p class="logo-prompt">
+                        Diseña un logotipo profesional, moderno y llamativo para un emprendimiento de comida rápida
+                        llamado “FAST FOOD ITSEC”. Incluye elementos relacionados con hamburguesas, papas fritas y
+                        bebidas. Utiliza colores rojo, amarillo y negro para transmitir energía, sabor y calidad.
+                        El nombre debe ser claro, legible y estar bien integrado en el diseño. Usa un estilo
+                        creativo, atractivo y fácil de reconocer, con fondo blanco y formato cuadrado. El resultado
+                        debe parecer un logotipo real para una marca de comida rápida, sin textos adicionales
+                        ni marcas de agua.
+                    </p>
+                    <div class="logo-image-box">
+                        <img src="imagenes/LOGITO1.jpg" alt="Logotipo de FAST FOOD ITSEC"
+                            onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+                        <p class="logo-missing">
+                            Coloca aquí tu imagen logo-fast-food.png dentro de la carpeta imagenes.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="logo-item">
+                    <h3><i class="fa-solid fa-microchip"></i> TECNOPLUS</h3>
+                    <p class="logo-prompt">
+                        Diseña un logotipo profesional, moderno e innovador para un emprendimiento tecnológico llamado
+                        “TECNOPLUS”. Incorpora un símbolo creativo que combine circuitos electrónicos, tecnología
+                        digital y conectividad. Utiliza azul eléctrico, blanco y amarillo para transmitir innovación,
+                        confianza y modernidad. El nombre debe ser claro, legible y destacar en el diseño. Usa formas
+                        limpias, un estilo futurista y elegante, fondo blanco y formato cuadrado. El resultado debe
+                        parecer un logotipo real para una empresa tecnológica, sin textos adicionales ni marcas de agua.
+                    </p>
+                    <div class="logo-image-box">
+                        <img src="imagenes/LOGITO2.jpg" alt="Logotipo de TECNOPLUS"
+                            onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+                        <p class="logo-missing">
+                            Coloca aquí tu imagen logo-tecnoplus.png dentro de la carpeta imagenes.
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+        </main>
+
+        <!-- PIE DE PÁGINA -->
+        <footer id="contacto" class="footer">
+            <div>
+                <p class="footer-slogan">“Emprender también es innovar”</p>
+                <p class="copyright">FEXPO ITSEC SUCRE &copy; 2026</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-btn"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="social-btn"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
